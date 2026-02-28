@@ -1,7 +1,7 @@
 class Paths < Formula
   desc "CLI tool to display PATH directories with colors and interactive selector"
   homepage "https://github.com/begoon/zig-path"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
