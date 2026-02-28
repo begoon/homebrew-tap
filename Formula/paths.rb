@@ -7,10 +7,10 @@ class Paths < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/begoon/zig-path/releases/download/latest/paths-macos-arm64.tar.gz"
-      sha256 "aa34a7844533bde1b2210d7222c85c58bf422a6722b7f6429cf1902888d2618f"
+      sha256 "f12660a7881fc2e73a5e720b1caa09bd54e57f67b88fc8b316e25592bd8ee02c"
     else
       url "https://github.com/begoon/zig-path/releases/download/latest/paths-macos-x86_64.tar.gz"
-      sha256 "4c0cc24766dbbfebb07b6ea89c6ddfd1d76431c616d7e5a217d5f263e2673fe5"
+      sha256 "3ba6cc311bc5aa30f749ec1ab7ea1cf2bd754ac9a3f070b419e8edb180dfd37f"
     end
   end
 
